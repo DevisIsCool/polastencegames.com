@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="img/favicon.ico" rel="shortcut icon"/>
+<title>Login</title>
+<style>
+  /* Styles for the button */
+  .cool-button {
+    background-color: #4285F4; /* Google Blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+
+  .cool-button:hover {
+    background-color: #357AE8; /* Darker Google Blue on hover */
+  }
+
+  /* Styles for the Google logo */
+  .google-logo {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+  }
+</style>
+</head>
+<body>
+
+<!-- Title and header -->
+<h1>Login</h1>
+
+<!-- Button for signing in with Google -->
+<button class="cool-button" onclick="window.location.href='https://accounts.google.com/o/oauth2/auth/oauthchooseaccount?client_id=470834414355-33f7lrbtpmpmo6p4ls5lcd3g5hdo48gc.apps.googleusercontent.com&redirect_uri=https%3A%2F%2Fcreedmanvr.github.io%2Fcool&response_type=token&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&service=lso&o2v=1&theme=mn&ddm=0&flowName=GeneralOAuthFlow'">
+  <img src="https://www.gstatic.com/firebasejs/ui/2.0.0/images/auth/google.svg" alt="Google Logo" class="google-logo">
+  Sign in with Google
+</button>
+
+</body>
+</html>
